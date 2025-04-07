@@ -121,8 +121,7 @@
   padding: 20px 25px;
   border-radius: 50px;
   border: 2px solid transparent;
-  background: 
-    linear-gradient(#161513, #161513) padding-box,
+  background: linear-gradient(#161513, #161513) padding-box,
     var(--color-bg) border-box;
   font-size: 13px;
   transition: all 0.5s;
@@ -139,5 +138,106 @@
 
 .desc-profile a button:hover {
   transform: scale(1.1);
-  color: #00D9F5; /* or any other single color from your gradient */
+  color: #00d9f5; /* or any other single color from your gradient */
+}
+
+@media screen and (max-width: 768px) {
+  .hh {
+    margin-top: 10%;
+  }
+
+  .img-profile {
+    width: 160px;
+    height: 160px;
+  }
+
+  .desc-profile h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .desc-profile p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 10px;
+  }
+
+  .desc-profile a button {
+    padding: 14px 20px;
+    font-size: 12px;
+  }
+}
+
+/*! about section */
+
+.title-about h1 {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.title-about h1::after {
+  content: "";
+  position: absolute;
+  bottom: 5;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--color-bg);
+  border-radius: 2px;
+}
+
+.img-about {
+  border-radius: 10px;
+  width: 250px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.desc-about p {
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.704);
+}
+
+.progress-about{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.progress-about:hover{
+    transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+
+.card-about{
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.card-about:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
