@@ -4,8 +4,8 @@ import Navbar from './_navbar/page';
 export default function RootLayout({ children }) {
   return <>
     <html>
-      <body>
-        <div className='mb-18'>
+      <body cz-shortcut-listen="true">
+        <div>
           <Navbar />
         </div>
         {children}
