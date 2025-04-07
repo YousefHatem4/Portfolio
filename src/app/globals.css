@@ -1,4 +1,81 @@
 @import "tailwindcss";
 
 
-     
+:root{
+    --font-fam:  "Comfortaa", sans-serif;
+    --color-bg:linear-gradient(267deg, #00F5A0 0%, #00D9F5 50%, #0083F5 100%);
+}    
+
+.font-fam{
+    font-family: var(--font-fam);
+}
+
+/*! Navbar css */
+
+.btn-nav{
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: var(--color-bg);
+    font-size: 13px;
+    transition: all .5s;
+    color: black;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.btn-nav:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/* Navbar link hover effects */
+.nav-item {
+    position: relative;
+}
+
+.nav-item a {
+    position: relative;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.nav-item a:hover {
+    background: var(--color-bg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: var(--color-bg);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.8s ease;
+    -webkit-transition: transform 0.8s ease;
+    -moz-transition: transform 0.8s ease;
+    -ms-transition: transform 0.8s ease;
+    -o-transition: transform 0.8s ease;
+}
+
+.nav-item a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
