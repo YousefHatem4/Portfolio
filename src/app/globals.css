@@ -225,7 +225,7 @@
     -o-transform: scale(1.07);
 }
 
-.card-about{
+.about-skills{
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -234,12 +234,12 @@
     -o-transition: all 0.4s ease-in-out;
 }
 
-.card-about:hover{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+.about-skills:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 /*! portfolio section */

@@ -28,7 +28,7 @@ export default function contact() {
           </div>
         </div>
         <div className='form-contact w-full md:w-4/12 mb-12 md:mb-0'>
-          <form className="max-w-sm mx-auto">
+          <form className="max-w-sm mx-auto" action={"https://formspree.io/f/mdkeygoa"} method='POST'>
             <div className="mb-5">
               <label htmlFor="text" className="block mb-2 text-sm font-medium text-white">Your Name</label>
               <input type="text" id="text" className=" text-sm rounded-lg  block w-full bg-gray-700 border-gray-600 placeholder-gray-400 text-white  " placeholder="Enter Your Name" required />
