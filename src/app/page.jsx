@@ -23,7 +23,7 @@ export default function Home() {
             </p>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1n9t7vyWNoz3Xw4gSz2zgon_XdRIqCMSo/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1q-l_jL40HBSPAMMyHgeBMXn81t3Y3yAT"
             >
               <button className="cursor-pointer mt-4">
                 
