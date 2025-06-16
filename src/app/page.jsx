@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <>
-      <div className="bg-[#161513] hh font-fam w-full min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-8">
+      <div className="bg-[#161513] hh  font-fam pt-8 pb-4 w-full min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-8 sm:pb-0 ">
         <div className="flex items-center justify-center flex-col text-center">
           <img
             className="img-profile"
@@ -26,6 +26,7 @@ export default function Home() {
               href="https://drive.google.com/file/d/1n9t7vyWNoz3Xw4gSz2zgon_XdRIqCMSo/view?usp=sharing"
             >
               <button className="cursor-pointer mt-4">
+                
                 My Resume
               </button>
             </a>
