@@ -8,10 +8,21 @@ export default function Portfolio() {
       image: "E-commerce.png"
     },
     {
+      title: "GearGrid – Car Listing Web App",
+      link: "https://gear-grid-project.vercel.app/login",
+      image: "GearGrid.png"
+    },
+    {
+      title: "Tasty Bites – Food Ordering Web App",
+      link: "https://tasty-bites-project.vercel.app/login",
+      image: "TastyBites.png"
+    },
+    {
       title: "React Project",
       link: "https://react-project-orcin-nine.vercel.app/",
       image: "react.png"
     },
+    
     {
       title: "Weather App",
       link: "https://yousefhatem4.github.io/Weather_Project/",
